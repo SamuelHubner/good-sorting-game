@@ -48,8 +48,29 @@ navegador ou sirva a pasta:
 python3 -m http.server 8000
 ```
 
-Para jogar no celular com instalação na tela inicial (funciona offline), publique
-no GitHub Pages: **Settings → Pages → Deploy from a branch**, escolha o branch e a
-pasta raiz. Depois abra o link no celular e use "Adicionar à tela inicial".
+## Jogar offline no celular (GitHub Pages)
+
+1. No GitHub, abra o repositório e vá em **Settings → Pages**.
+2. Em **Build and deployment → Source**, escolha **Deploy from a branch**.
+3. Em **Branch**, escolha o branch do jogo e a pasta **/ (root)** e clique em **Save**.
+4. Espere um ou dois minutos. O endereço aparece no topo da mesma página,
+   no formato `https://<usuario>.github.io/good-sorting-game/`.
+
+No **iPhone**:
+
+1. Abra o endereço no **Safari** (precisa ser o Safari) com internet.
+2. Toque em **Compartilhar** (quadrado com seta) → **Adicionar à Tela de Início**.
+3. Abra o jogo **pelo ícone** da tela de início uma vez, ainda com internet,
+   para ele guardar os arquivos.
+4. Pronto: a partir daí ele abre e joga sem internet.
+
+No **Android** (Chrome): abra o endereço → menu ⋮ → **Instalar app** ou
+**Adicionar à tela inicial**.
+
+Atualizações: quando houver uma versão nova, abra o jogo com internet. Ele
+baixa a versão nova em segundo plano e passa a usá-la na abertura seguinte.
+
+Observação: no iPhone, o app da tela de início guarda o progresso separado do
+Safari, então o que você jogar no Safari não aparece no app e vice-versa.
 
 O progresso (fase atual, estrelas, recorde) fica salvo no navegador.

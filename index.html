@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <!--pwa--><link rel="manifest" href="manifest.webmanifest">
 <!--pwa--><link rel="icon" href="icon.svg" type="image/svg+xml">
-<!--pwa--><link rel="apple-touch-icon" href="icon.svg">
+<!--pwa--><link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;800&display=swap">
@@ -1177,7 +1177,7 @@ try { window.claude && window.claude.hot && window.claude.hot.snapshot && window
 if (window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(boot);
 else boot(window.claude && window.claude.hot && window.claude.hot.data || {});
 
-if ('serviceWorker' in navigator && location.protocol === 'https:' && window.top === window.self) {
+if ('serviceWorker' in navigator && window.isSecureContext && window.top === window.self) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
