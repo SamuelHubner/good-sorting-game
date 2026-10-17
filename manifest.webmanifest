@@ -1,0 +1,15 @@
+{
+  "name": "Arruma Prateleira",
+  "short_name": "Prateleira",
+  "description": "Jogo de organizar produtos: junte 3 iguais na mesma prateleira.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1d2046",
+  "theme_color": "#1d2046",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
